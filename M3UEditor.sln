@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C0C1ABB7-8C19-467D-8D3A-3937B96C1349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3UEditor.Console", "src\M3UEditor.Console\M3UEditor.Console.csproj", "{1F3DF20A-EB1F-4C71-A2F2-A758F79DE27E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3UEditor.Application", "src\M3UEditor.Application\M3UEditor.Application.csproj", "{73241B26-5C53-4525-96E0-094D8BEFFED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3UEditor.Application.Tests", "src\M3UEditor.Application.Tests\M3UEditor.Application.Tests.csproj", "{3611830A-493D-4F1E-936F-72C5E09584FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "temp", "temp", "{853A0D5A-F6AF-4A55-8BB3-2D99DDF26BFA}"
+ProjectSection(SolutionItems) = preProject
+	temp\all.m3u = temp\all.m3u
+	temp\nl.m3u = temp\nl.m3u
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F3DF20A-EB1F-4C71-A2F2-A758F79DE27E} = {C0C1ABB7-8C19-467D-8D3A-3937B96C1349}
+		{73241B26-5C53-4525-96E0-094D8BEFFED1} = {C0C1ABB7-8C19-467D-8D3A-3937B96C1349}
+		{3611830A-493D-4F1E-936F-72C5E09584FD} = {C0C1ABB7-8C19-467D-8D3A-3937B96C1349}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3DF20A-EB1F-4C71-A2F2-A758F79DE27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3DF20A-EB1F-4C71-A2F2-A758F79DE27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3DF20A-EB1F-4C71-A2F2-A758F79DE27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3DF20A-EB1F-4C71-A2F2-A758F79DE27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73241B26-5C53-4525-96E0-094D8BEFFED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73241B26-5C53-4525-96E0-094D8BEFFED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73241B26-5C53-4525-96E0-094D8BEFFED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73241B26-5C53-4525-96E0-094D8BEFFED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3611830A-493D-4F1E-936F-72C5E09584FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3611830A-493D-4F1E-936F-72C5E09584FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3611830A-493D-4F1E-936F-72C5E09584FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3611830A-493D-4F1E-936F-72C5E09584FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
