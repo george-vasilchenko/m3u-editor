@@ -23,7 +23,7 @@ namespace M3UEditor.Console
 
         private static IConfigurationRoot GetConfiguration(string[] args) =>
             new ConfigurationBuilder()
-                .AddIniFile("settings.ini", false, true)
+                .AddIniFile("nl-live.settings.ini", false, true)
                 .AddEnvironmentVariables()
                 .AddCommandLine(args)
                 .Build();

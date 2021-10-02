@@ -17,7 +17,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="settings.ini">
+      <None Update="essentials.settings.ini">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="nl-live.settings.ini">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>

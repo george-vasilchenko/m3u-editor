@@ -6,20 +6,19 @@ namespace M3UEditor.App
 {
     public class PlaylistEditor : IPlaylistEditor
     {
-        public IPlaylist RemoveGroups(IPlaylist playlist, IEnumerable<string> groupNames)
+        public IPlaylist RemoveGroups(IPlaylist playlist, IEnumerable<string> groups)
         {
             if (playlist is null)
             {
                 throw new ArgumentNullException(nameof(playlist));
             }
 
-            if (groupNames is null)
+            if (groups is null)
             {
-                throw new ArgumentNullException(nameof(groupNames));
+                throw new ArgumentNullException(nameof(groups));
             }
 
-            
-            
+            playlist.RemoveGroups(groups.ToList());
             return playlist;
         }
 
@@ -39,8 +38,8 @@ namespace M3UEditor.App
                 .Where(s => groupsToKeep.All(gt => gt != s.GroupTitle))
                 .Select(s => s.GroupTitle)
                 .ToList();
+            
             playlist.RemoveGroups(groupTitles);
-
             return playlist;
         }
     }
